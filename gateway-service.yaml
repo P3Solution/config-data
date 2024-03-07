@@ -24,7 +24,11 @@ spring:
       globalCors:
         corsConfigurations:
           '[/**]':
-              allowedOrigins: "http://localhost:4200"
+              allowedOrigins:
+              - "http://localhost:4200"
+              - "https://mainapp-fa.azurewebsites.net"
+              - "https://mealsapp-fa.azurewebsites.net"
+              - "https://cliclogistic-fa.azurewebsites.net"
               allowedMethods:
               - POST
               - GET
