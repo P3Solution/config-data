@@ -26,6 +26,7 @@ spring:
           '[/**]':
               allowedOrigins:
               - "http://localhost:4200"
+              - "http://localhost:60249"
               - "https://mainapp-fa.azurewebsites.net"
               - "https://mealsapp-fa.azurewebsites.net"
               - "https://cliclogistic-fa.azurewebsites.net"
