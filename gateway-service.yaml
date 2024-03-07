@@ -26,9 +26,9 @@ spring:
           '[/**]':
               allowedOrigins:
               - "http://localhost:4200"
-              - "https://mainapp-fa.azurewebsites.net"
-              - "https://mealsapp-fa.azurewebsites.net"
-              - "https://cliclogistic-fa.azurewebsites.net"
+              - "https://p3solutions-main.azurewebsites.net"
+              - "https://p3solutions-cliclogistic.azurewebsites.net"
+              - "https://p3solutions-meals.azurewebsites.net"
               allowedMethods:
               - POST
               - GET
