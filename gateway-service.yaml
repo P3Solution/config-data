@@ -29,7 +29,6 @@ spring:
               - "https://mainapp-fa.azurewebsites.net"
               - "https://mealsapp-fa.azurewebsites.net"
               - "https://cliclogistic-fa.azurewebsites.net"
-
               allowedMethods:
               - POST
               - GET
