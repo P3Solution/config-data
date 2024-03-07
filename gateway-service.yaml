@@ -19,9 +19,9 @@ spring:
         locator:
           enabled: true
 
-      default-filters:
+      defaultFilters:
         - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
-      globals:
+      globalCors:
         corsConfigurations:
           '[/**]':
               allowedOrigins: "http://localhost:4200"
