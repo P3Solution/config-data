@@ -27,6 +27,7 @@ spring:
               allowedOrigins:
               - "http://localhost:4200"
               - "http://localhost:55010"
+              - "http://localhost:57900"
               - "https://p3solutions-main.azurewebsites.net"
               - "https://p3solutions-cliclogistic.azurewebsites.net"
               - "https://p3solutions-meals.azurewebsites.net"
