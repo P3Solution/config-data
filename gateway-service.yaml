@@ -26,7 +26,7 @@ spring:
           '[/**]':
               allowedOrigins:
               - "http://localhost:4200"
-              - "http://localhost:49823"
+              - "http://localhost:4982"
               - "http://localhost:50864"
               - "https://p3solutions-main.azurewebsites.net"
               - "https://p3solutions-cliclogistic.azurewebsites.net"
